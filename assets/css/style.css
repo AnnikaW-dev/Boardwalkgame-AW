@@ -37,9 +37,22 @@
 
 }
 
-#services .card{
+#services .card {
     margin-bottom: 1.5rem;
 }
+
+#new-games-section .card{
+    border:none;
+}
+
+#fav-games-section .card{
+    border:none;
+}
+
+.card-footer{
+    border:none;
+}
+
 
 /* Global styles*/
 body {
