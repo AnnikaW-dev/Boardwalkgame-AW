@@ -41,10 +41,7 @@
     margin-bottom: 1.5rem;
 }
 
-#new-games-section .card{
-    border:none;
-}
-
+#new-games-section .card,
 #fav-games-section .card{
     border:none;
 }
@@ -53,15 +50,44 @@
     border:none;
 }
 
+/*Footer/Contact section*/
+#contact{
+    background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 3rem;
+
+}
+
+#contact h2{
+    color: white;
+}
+#contact .sub-heading-color{
+    color: var(--light-highlight-color)
+}
+#contact i{
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+#contact .social-links i{
+    color: var(--light-highlight-color);
+    font-size: 1.9rem;
+}
+
+#contact .social-links i:hover{
+    color: var(--secondary-color);
+    transition:color 0.3s ease-in-out;
+}
 
 /* Global styles*/
 body {
     font-family: var (--primary-font);
 }
 
-h1, h2, h3 {
+h1, h2, h3{
     font-family: var(--secondary-font);
-    color: var (primary-color);
+    color: var(--primary-color);
 }
 h1, h2{
     text-transform: uppercase;
@@ -72,7 +98,7 @@ h2 {
 }
 
 .sub-heading-color{
-    color: var (--highligt-color);
+    color: var(--highligt-color);
 }
 
 .section{
