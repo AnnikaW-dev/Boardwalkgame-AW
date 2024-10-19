@@ -80,6 +80,10 @@
     transition:color 0.3s ease-in-out;
 }
 
+#contact .table-dark *{
+    background-color: transparent;
+}
+
 /* Global styles*/
 body {
     font-family: var (--primary-font);
