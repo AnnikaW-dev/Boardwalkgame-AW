@@ -110,6 +110,31 @@ h2 {
     margin-bottom: 2rem;
 }
 
+/* buttons*/
+
+.custom-buttom-filled{
+   border: 2px solid var(--highligt-color);
+   background-color: var(--highligt-color);
+   color: white;
+}
+
+.custom-buttom-filled:hover{
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.custom-buttom-outline{
+    border: 2px solid var(--highligt-color);
+    padding:7px 25px;
+    color: var(--highligt-color);
+ }
+ 
+ .custom-buttom-outline:hover{
+     background-color: var(--highligt-color);
+     color: white;
+ }
+ 
 
 
 /* grid visualisation SS for testing*/
