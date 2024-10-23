@@ -52,7 +52,7 @@
 
 /*Events section*/
 .discount{
-    background-color: var(--highligt-color);
+    background-color: var(--light-highlight-color);
     width: 17rem;
 }
 
