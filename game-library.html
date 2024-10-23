@@ -257,12 +257,51 @@
         </section>
 
         <!--Reserv games section-->
-        <section class="container">
-            <div class="row">
-                <h2 class="display-6"></h2>
-                <div class="col-12 col-md-4">
-                    
-                </div> 
+        <section id="reservGames" class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <h2 class="display-6 text-center">Reserv a game</h2>
+                    <p>Reserve a board game for your next visit to Boardwalk Games. Pick your challenge, and 
+                        let the adventure begin! Fill out your details and preferred game below, and we'll have 
+                        it set aside for you when you arrive.</p>
+                    <form action="success.html" method="get">
+                        <div class="row">
+                            <div class="col-12 col-md-4 mb-3">
+                                <label for="fullName" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="fullName" name="fullName" required>
+                            </div>
+                            <div class="col-12 col-md-4 mb-3">
+                                <label for="phoneNumber" class="form-label">Phone number</label>
+                                <input type="number" class="form-control" id="phoneNumber" name="phoneNumber" required>
+                            </div>  
+                            <div class="col-12 col-md-4 mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="col-12 col-md-6 mb3">
+                                <label for="game" class="form-label">Select Game</label>
+                                <select id="game" class="form-select" name="game" required>
+                                    <option value="" selected>Select game</option>
+                                    <option value="regular-play">Galaxy Pioneers</option>
+                                    <option value="dnd">Mystic Woods</option>
+                                    <option value="retro-night">Captain's Gambit</option>
+                                    <option value="tournament">Critter Quest</option>
+                                    <option value="kids-party">Setters of Catan</option>
+                                    <option value="kids-party">Monopoly</option>
+                                    <option value="kids-party">Exploding Kittens</option>
+                                    <option value="kids-party">Cluedo</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-6 mb-3">
+                                <label for="date" class="form-label">Requested date</label>
+                                <input type="date" class="form-control" id="date" required>
+                            </div>
+                            <div class="col-12 text-center">    
+                                <button type="submit" class="btn custom-buttom-outline">Submit</button>    
+                            </div>
+                        </div>
+                    </form>
+                </div>    
             </div>
         </section>
 
@@ -270,7 +309,7 @@
 
     <!-- footer / contact section -->
     <!-- mt-auto added to push footer to the bottom of the page -->
-    <footer id="contact" class="mt-auto">
+    <footer id="contact" class="mt-4">
         <div class="container section">
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
