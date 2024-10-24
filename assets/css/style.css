@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
 
+/*Google fonts imoport*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+
+
 /*CSS Varible*/
 :root {
     /*Fonts*/
@@ -92,8 +96,8 @@
 
 /* Global styles*/
 body {
-    font-family: var (--primary-font);
-    padding-top: 57.15px;  /* pushes the top header down under fixed navbar */
+    font-family: var(--primary-font);
+    padding-top:57.15px;  /* pushes the top header down under fixed navbar */
 }
 
 h1, h2, h3{
@@ -141,18 +145,6 @@ h2 {
      color: white;
  }
  
- 
-
-
-/* grid visualisation SS for testing*/
-/*.container, .row {
-    border:2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-}*/
 
 /*Media queries*/
 
